@@ -42,7 +42,7 @@ services:
       MARIADB_DATABASE: ${MARIADB_DATABASE}
       STORAGE_PATH: '/mnt/storagefs'
     volumes:
-      - ${PWD}/projects/api:/home/node/project
+      - ${PWD}/projects/coopers-api:/home/node/project
       - ${DK_STORAGE_FS}:/mnt/storagefs
     depends_on:
       mariadb:
@@ -61,7 +61,7 @@ services:
     ports:
       - "${FRONTEND_PORT}:${FRONTEND_PORT}"
     volumes:
-      - ${PWD}/projects/front:/home/node/project
+      - ${PWD}/projects/coopers-front:/home/node/project
     networks:
       - backend
     command: [ "npm", "run", "dev" ]
