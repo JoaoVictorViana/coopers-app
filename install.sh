@@ -2,7 +2,7 @@
 
 cat 'Iniciando instalação...'
 
-cp .env-example .env
+cp ./.env-example ./.env
 
 git submodule init
 git submodule update --remote --merge

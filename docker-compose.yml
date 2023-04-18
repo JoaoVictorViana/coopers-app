@@ -66,5 +66,6 @@ services:
       - backend
     command: [ "npm", "run", "dev" ]
 
+networks:
   backend:
     driver: bridge
