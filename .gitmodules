@@ -1,7 +1,7 @@
 
 [submodule "projects/coopers-api"]
 	path = projects/coopers-api
-	url = git@github.com:JoaoVictorViana/coopers-api.git
+	url = https://github.com/JoaoVictorViana/coopers-api.git
 [submodule "projects/coopers-front"]
 	path = projects/coopers-front
-	url = git@github.com:JoaoVictorViana/coopers-front.git
+	url = https://github.com/JoaoVictorViana/coopers-front.git
