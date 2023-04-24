@@ -28,7 +28,7 @@ services:
         DK_GID: ${DK_GID}
     container_name: ${DK_PROJECT_NAME}_api
     ports:
-      - "${API_PORT}:3000"
+      - "${API_PORT}:3001"
       - "9240:9240"
     environment:
       NODE_ENV: ${DK_ENVIRONMENT}
