@@ -2,6 +2,8 @@
 [submodule "projects/coopers-api"]
 	path = projects/coopers-api
 	url = https://github.com/JoaoVictorViana/coopers-api.git
+	branch = main
 [submodule "projects/coopers-front"]
 	path = projects/coopers-front
 	url = https://github.com/JoaoVictorViana/coopers-front.git
+	branch = main
