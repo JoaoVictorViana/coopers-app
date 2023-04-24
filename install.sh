@@ -16,4 +16,4 @@ cp .env-example .env
 echo 'Instalando Front...'
 cd ../coopers-front
 yarn
-cp .env-example .env
+cp .env-dev .env
